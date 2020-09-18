@@ -1,0 +1,15 @@
+.imgLogo {
+    width: 50px;
+    height: 50px;
+}
+
+.homeHeader {
+    position: absolute;
+    text-align: center;
+    left: 45%;
+    width: 100px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}

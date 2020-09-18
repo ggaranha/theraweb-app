@@ -1,0 +1,12 @@
+.itemNav {
+    border: none;
+    color: #FFFFFF;
+    background-color: inherit;
+    font-size: 12px;
+    cursor: pointer;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+}
+
+.itemNav:hover {background: purple;}

@@ -1,0 +1,91 @@
+
+.header {
+    background-color: red;
+}
+
+body {
+    min-height:100%;
+    background-blend-mode: normal;
+    background:linear-gradient(0deg, rgba(70, 33, 173, 0.8), rgba(70, 33, 173, 0.8)), url('../images/backgrounds/groupPhoto.svg');
+    background-size:cover;
+}
+
+.homeHeader {
+    position: absolute;
+    text-align: center;
+    left: 45%;
+    width: 100px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.navBar {
+    color:#FFFFFF;
+}
+
+.itemNav {
+    display:inline-block;
+    margin: 10px;
+}
+
+.imgLogo {
+    width: 50px;
+    height: 50px;
+}
+
+.featureBlock {
+    display: inline-block;
+}
+  
+.greeting {
+    margin: 50px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.greetingHeader {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.featuresBar {
+    text-align: center;
+}
+
+.loginContainer {
+    text-align: center;
+    margin: 50px;
+
+}
+
+
+.loginBtn {
+    background-color: transparent;
+    color: #FFFFFF;
+    display:inline-block;
+    margin: 20px;
+    font-size: 15px;
+}
+
+.signupBtn {
+    color: blueviolet;
+    display:inline-block;
+    margin: 20px;
+    font-size: 15px;
+}
+
+.h1 {
+    color: red;
+}
+
+.signupFormContainer {
+    position: absolute;
+    text-align: center;
+    left: 45%;
+    width: 300px;;
+    height: 200px;
+    background-color: #FFFFFF;
+    text-align: center;
+}

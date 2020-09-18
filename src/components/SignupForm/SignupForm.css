@@ -1,0 +1,133 @@
+.signupFormContainer {
+    position: absolute;
+    text-align: center;
+    left: 45%;
+    width: 400px;
+    height: 400px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.formLogin {
+    background-color: transparent;
+    color: #4621AD;
+    display:inline-block;
+    border: 2px solid #4621AD;
+    margin: 8px;
+    font-size: 10px;
+    width: 80px;
+    height: 25px;
+}
+
+.formSignup {
+    background-color: #4621AD;
+    color: #FFFFFF;
+    display:inline-block;
+    border: 2px solid #4621AD;
+    margin: 8px;
+    font-size: 10px;
+    width: 80px;
+    height: 25px;
+}
+
+.infoContainer {
+    margin:10px;
+    border-radius: 25px;
+    border: 2px solid #4621AD;
+    width: 200px;
+    height: 25px;
+    align-self: left;
+}
+
+.infoContainer:focus {
+    outline: none;
+}
+
+
+.usernameContainer {
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 200px;
+    height: 50px;
+    align-self: center;
+}
+
+.boxLabel {
+    height: 30;
+    
+}
+
+.usernameBox {
+    width: 100px;
+    border:none;
+}
+
+.userIcon {
+    display: inline-block;
+}
+
+.mailBox {
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 180px;
+    height: 30px;
+    text-align: left;
+
+}
+
+.interestBox {
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 180px;
+    height: 30px;
+    text-align: left;
+}
+
+.checkBoxContainer {
+    display: block;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+  }
+
+  .checkBoxContainer input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 25px;
+    border: 1px solid #4621AD;
+    height: 100px;
+    width: 100px;
+    background-color: #eee;
+  }
+  
+  .checkBoxContainer input:checked ~ .checkmark {
+    background-color: #4621AD;
+  }
+
+  .checkmark .maleCheckmark {
+      padding-top: 30px;
+  }
+
+  .checkmark .femaleCheckmark {
+    padding-top: 30px;
+}
+
+  .checkBoxContainer input:checked ~ .checkmark .maleCheckmark {
+    filter: brightness(100);
+  }
+
+  .checkBoxContainer input:checked ~ .checkmark .femaleCheckmark {
+    filter: brightness(100);
+  }
+
+  
